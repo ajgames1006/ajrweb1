@@ -1,0 +1,71 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("pexels-kevin-ku-92347-577585.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .anc {
+    position: relative;
+    top: 20vw;
+    font-size: 70px;
+    color: white;
+    -webkit-text-stroke: 1px #000000;
+  }
+  .aw {
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    color: white;
+    transform: translateX(-50%);
+    -webkit-text-stroke: 1px #000000;
+  }
+  .callh {
+    position: relative;
+    top: 20vw;
+    font-size: 50px;
+    color: white;
+    -webkit-text-stroke: 1px #000000;
+  }
+  .call {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+  }
+  .callb {
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+  }
+  .callb:hover {
+    background-color: rgb(236, 227, 227);
+  }
+  .strip {
+    background-color: #000000;
+    width: 100%;
+  }
+  p {
+    color: white;
+  }
+  .cba {
+    color: white;
+    outline: black;
+    position: relative;
+    top: 20vw;
+  }
